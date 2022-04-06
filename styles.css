@@ -62,7 +62,7 @@ body {
 
 .presentation {
     margin-left: 152px;
-    background:  #F5F5F5;
+    background: red;
     margin-top: 66.5px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -217,14 +217,33 @@ body {
     background: #EAF2FD;
     height: 581px;
     margin-top: 88px;
-}
+    }
 
 .Projects h2 {
     text-align: center;
     font-size: 32px;
     padding-top: 82px;
-}
+    }
 
 .Projects-container {
     margin-left: 152px;
+    }
+
+
+
+/*CONTACTO*/
+
+.form {
+    max-inline-size: 550px;
+    margin: auto;
+    }
+
+.form label {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: .5em;
+    padding-inline-start: .5em;
 }
+
+
+
