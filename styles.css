@@ -62,7 +62,7 @@ body {
 
 .presentation {
     margin-left: 152px;
-    background: #F5F5F5;
+    background: red;
     margin-top: 66.5px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
