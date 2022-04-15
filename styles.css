@@ -61,9 +61,9 @@ body {
 /*PRESENTATION*/
 
 .presentation {
-    margin-left: 152px;
+    height: 100vh;
+    margin: 0 150px;
     background: #F5F5F5;
-    margin-top: 66.5px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center;
