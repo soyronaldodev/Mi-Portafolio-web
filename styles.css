@@ -20,6 +20,10 @@ body {
     
 }
 
+.logo1 {
+    width: 20px;
+}
+
 .brand li {
     list-style: none;
 }
