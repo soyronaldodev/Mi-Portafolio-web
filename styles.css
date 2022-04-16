@@ -70,11 +70,8 @@ body {
 
 .presentation {
     height: 100vh;
-<<<<<<< HEAD
     margin: 0px 150px;
-=======
     margin: 0 150px;
->>>>>>> 641ddcdf734ac3ef2e9b6bb022dda4cdfa3a8ed2
     background: #F5F5F5;
     display: grid;
     grid-template-columns: repeat(2,1fr);
