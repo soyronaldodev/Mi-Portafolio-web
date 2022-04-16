@@ -32,7 +32,7 @@ body {
     margin-left: 152px;
     display: flex;
     margin-top: 34.5px;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: bold;
     
 }
@@ -94,7 +94,7 @@ body {
 /*ABOUT ME*/
 
 .abaut-me {
-    height: 100vh;
+    height: 50vh;
     margin-top: 35px;
     background-color:  #EAF2FD;
     
@@ -122,6 +122,7 @@ body {
 /*SKILLS*/
 
 .skills {
+    
     background: #F5F5F5;
     margin-top: 32px;
 }
@@ -175,6 +176,7 @@ body {
 /*HOBBIES*/
 
 .hobbies {
+    
     background: #F5F5F5;
     margin-top: 32px;
     
@@ -220,7 +222,7 @@ body {
 
 .Projects {
     background: #EAF2FD;
-    height: 581px;
+    height: 100vh;
     margin-top: 88px;
     }
 
@@ -238,17 +240,60 @@ body {
 
 /*CONTACTO*/
 
+
+.contacto {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+
 .form {
+   
     max-inline-size: 550px;
     margin: auto;
     }
 
+.cuadro__blanco {
+    background: #ffffff;
+    border: none;
+    width: 500px;
+    height: 40px;
+} 
+
+.cuadro1 {
+    
+    width: 500px;
+    border: none;
+}
+
+
+.tag, p{
+    margin-bottom: 15px;
+}
+
+
 .form label {
     display: block;
-    margin-block-start: 1em;
-    margin-block-end: .5em;
-    padding-inline-start: .5em;
+    margin: 5px 0;
+    
 }
+
+.telefono {
+    margin: auto;
+    margin-left: 200px;
+    height: 480px;
+    
+}
+
+.btn1 {
+    border: none;
+    border-radius: 1px;
+    padding: 7px 5px;
+    color: #F5F5F5;
+    background: #2A7AE4;
+}
+
 
 
 

@@ -65,13 +65,13 @@
             </div>
             <div>
                 <li>
-                    <img src="" alt="#">
+                   <!-- <img src="" alt=""> -->
                     <p></p>
                 </li>
             </div>
             <div>
                 <li>
-                    <img src="" class="react" alt="#">
+                    <!-- <img src="" alt=""> -->
                     <p></p>
 
                 </li>
@@ -119,27 +119,35 @@
         
         </div>
     </section>
-
+  
     <section class="contacto">
-            <div class="imagen"></div>
+                <img src="./svg/imagenTelefono.svg" alt="" class="telefono">
             <form id="form" action="" class="form">
-                <h3 class="tag"><span>HABLEMOS</span></h3>
-                <label for="name">Nombre Completo <span>*</span></label>
-                <input name="name" required type="text" id="name" placeholder="Juan">
-                <label for="email">Correo electrónico <span>*</span></label>
-                <input name="email" type="text" id="email" required placeholder="juan@gmail.com">
-                <label for="message">Mensaje</label>
-                <textarea id="message" name="message" id="" cols="30" rows="10"></textarea>
-                <button type="submit" class="btn primary full">enviar mensaje</button>
-              </form>    
+                <div>
+                    <h3 class="tag"><span>Contacto</span></h3>
+                    <p>¿Quieres contactarme?</p>
+                    <p>Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
+                </div>
+                <div  class="cuadro__blanco tag ">
+                    <label for="name">Nombre<span>*</span></label>
+                    <input name="name" required type="text" id="name" placeholder="Juan" class="cuadro1">
+                </div>
 
-    </section>
+                <div class="cuadro__blanco tag">
+                    <label for="email">Correo electrónico <span>*</span></label>
+                    <input name="email" type="text" id="email" required placeholder="juan@gmail.com" class="cuadro1">
+                </div>
 
-    
+                <div class="cuadro__blanco tag">
+                    <input name="text" type="text" id="text" required placeholder="Asunto" class="cuadro1">
+                </div>
 
+                
+                <textarea id="message" name="message" id="" cols="30" rows="10" placeholder="Mensaje" class="cuadro1"></textarea><br><br>
+                <button type="submit" class="btn1 primary full">Enviar mensaje</button>
+              </form>  
 
-    
-
+    </section> 
 
 
     <script src="main.js"></script>
