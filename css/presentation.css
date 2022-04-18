@@ -1,0 +1,40 @@
+.presentation {
+    width: 80%;
+    height: 100vh;
+    background: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    margin: auto;
+    font-weight: bold;
+}
+
+
+.info__presentation h2 {
+    font-size: 3em;
+    margin: 0 ;
+    
+}
+
+.color__ronaldo {
+    color: #3e6ff4;
+}
+
+.button__presentation {
+    color: #ffffff;
+    font-size: 1em;
+    background: #3e6ff4;
+    padding: .3em;
+    border-radius: .2em;
+}
+
+.presentation img {
+    margin: auto;
+    width: 20em;
+    border-radius:10em;
+}
+
+
+.home__social-icon {
+    width: 0em;
+}

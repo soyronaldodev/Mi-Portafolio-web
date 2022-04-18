@@ -4,153 +4,143 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RONALDO VAZQUEZ</title>
+    <title>Ronaldo Vazquez</title>
     <!--CUSTOM-CSS-->
-    <link rel="stylesheet" href="styles.css">
-    
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/contacto.css">
+    <link rel="stylesheet" href="./css/hobbies.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/presentation.css">
+    <link rel="stylesheet" href="./css/skills.css">
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!--responsive-->
+    <link rel="stylesheet" href="./css/responsive.css">
 </head>
 <body>
-    <div class="container">
-        <nav class="navbar">
-            <div class="brand">
-                <img src="./svg/rocket.svg" alt="" class="logo1">
-            </div>
-            <ul class="menu">
-                <li><a href="#">Sobre Mi</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Hobbies</a></li>
-                <li><a href="#">Formación</a></li>
-                <li><a href="#">Proyectos</a></li>
-                <li><a href="#">soyronaldodev@gmail.com</a></li>
-            </ul>
-        </nav>    
-    </div>
-
-    <!--PRESENTATION-->
-    
-    <header class="presentation">
-        <div class="info-content">
-            <h2>Hola, mi nombre es Ronaldo Vazquez y Construyo Paginas Web App. </h2>
+    <header class="header__principal">
+        <div class="container">
+            <h1 class="header__principal--logo">
+				<a href="#">Ronaldo Vazquez</a>
+			</h1>
+            <nav class="header__principal--nav">
+				<a class="nav__link1" href="#">Sobre Mi</a>
+				<a class="nav__link" href="#">Skills</a> 
+				<a class="nav__link" href="#">Proyectos</a>
+				<a class="nav__link nav__link--app" href="#">Contacto</a>
+			</nav> 
         </div>
-        <img src="img/foto ronaldo.jpg" alt="">
     </header>
 
-    <!--ABAUT ME-->
-
-    <section class="abaut-me">
-        <div class="content">
-            <h2>Sobre mi</h2>
-            <p>Soy un desarrollador web, tengo 24 años y actualmente radico en monterrey, mexico. </p>
-        </div>
-    </section>
-
+    <main>
+    <!--PRESENTATION-->
     
+        <section class="presentation">
+            <div class="info__presentation">
+                <h2>Hola,<br> mi nombre es <span class="color__ronaldo"> Ronaldo</span><br>y soy Desarrollador Web. </h2>
+            </div>
+                <img src="img/foto ronaldo.jpg" alt="">
 
-    <!--SKILLS-->
+                <div class="home__social"></div>
+                    <a href="#" class="button__presentation">Descargar CV</a>
+                    <a href="" class="home__social-icon"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="" class="home__social-icon"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="" class="home__social-icon"><i class="fa-brands fa-github"></i></a>
+                </div> 
+        </section>
 
-    <section class="skills">
-        <h2>Skills</h2>
-        <div class="skills-container">
-            <div>
-                <li>
-                    <img src="svg/html5.svg" alt="#">
-                    <p>Html 5</p>
-                </li>
-            </div>
-            <div>
-                <li>
-                    <img src="svg/css.svg" alt="#">
-                    <p>CSS</p>
-                </li>
-            </div>
-            <div>
-                <li>
-                   <!-- <img src="" alt=""> -->
-                    <p></p>
-                </li>
-            </div>
-            <div>
-                <li>
-                    <!-- <img src="" alt=""> -->
-                    <p></p>
+        <!--ABAUT ME-->
 
-                </li>
+        <section class="abaut-me">
+            <div class="content">
+                <h2>Sobre mi</h2>
+                <p>Soy un desarrollador web, tengo 24 años y actualmente radico en monterrey, mexico. </p>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!--HOBBIES-->
-
-    <section class="hobbies">
-        <h2>Hobbies</h2>
-        <div class="hobbies-container">
-            <div>
-                <li>
-                    <img src="svg/effort_gym_weight_success.svg" alt="#">
-                    <p>Ir al gym</p>
-                </li>
-            </div>
-            <div>
-                <li>
-                    <img src="svg/series.svg" alt="#">
-                    <p>Ver series</p>
-                </li>
-            </div>
-            <div>
-                <li>
-                    <img src="svg/sport_ball_futbol.svg" alt="#">
-                    <p>Jugar Futbol</p>
-                </li>
-            </div>
-            <div >
-                <li>
-                    <img src="svg/read_book_man.svg"  alt="#">
-                    <p>Aprender cosas nuevas</p>
-                </li>
-            </div>
-        </div>
-    </section>
-
-    <!--Projects-->
-
-    <section class="Projects">
-        <h2>Proyectos</h2>
-        <div class="Projects-container">
         
-        </div>
-    </section>
-  
-    <section class="contacto">
+
+        <!--SKILLS-->
+
+        <section class="skills">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div>
+                    <li>
+                        <img src="svg/html5.svg" alt="#">
+                        <p>Html 5</p>
+                    </li>
+                </div>
+                <div>
+                    <li>
+                        <img src="svg/css.svg" alt="#">
+                        <p>CSS</p>
+                    </li>
+                </div>
+                <div>
+                    <li>
+                    <!-- <img src="" alt=""> -->
+                        <p></p>
+                    </li>
+                </div>
+                <div>
+                    <li>
+                        <!-- <img src="" alt=""> -->
+                        <p></p>
+
+                    </li>
+                </div>
+            </div>
+        </section>
+
+        <!--Projects-->
+
+        <section class="Projects">
+            <h2>Proyectos</h2>
+            <div class="Projects-container">
+            
+            </div>
+        </section>
+    
+        <section class="contacto">
+
                 <img src="./svg/imagenTelefono.svg" alt="" class="telefono">
-                <form id="form" action="" class="form">
-                    <div>
-                        <h3 class="tag"><span>Contacto</span></h3>
-                        <p>¿Quieres contactarme?</p>
-                        <p>Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
+                
+                <form action="/my-handling-form-page" method="post">
+                    <div class="contac">
+                    <h1>Contacto</h1><br>
+                    <p>Completa el siguiente formulario y me pondre en contacto con usted lo antes posible</p>
                     </div>
-                    <div  class="cuadro__blanco tag ">
-                        <label for="name">Nombre<span>*</span></label>
-                        <input name="name" required type="text" id="name" placeholder="Juan" class="cuadro1">
-                    </div>
-
-                    <div class="cuadro__blanco tag">
-                        <label for="email">Correo electrónico <span>*</span></label>
-                        <input name="email" type="text" id="email" required placeholder="juan@gmail.com" class="cuadro1">
-                    </div>
-
-                    <div class="cuadro__blanco tag">
-                        <input name="text" type="text" id="text" required placeholder="Asunto" class="cuadro1">
-                    </div>
-
+                    <ul>
+                    <li>
+                    <label for="name"></label>
+                    <input type="text" id="name" name="user_name" placeholder=" Nombre y Apellido">
+                    </li>
+                    <li>
+                    <label for="mail"></label>
+                    <input type="email" id="mail" name="user_mail" placeholder=" Correo Electronico">
+                    </li>
+                    <li>
+                        <input type="text" id="mail" name="user_text" placeholder=" Asunto">
+                    </li>
+                    <li>
+                    <label for="msg"></label>
+                    <textarea id="msg" name="user_message" placeholder=" Mensaje"></textarea>
+                    </li>
+                    <li class="button">
+                        <button type="submit">Enviar Mensaje </button>
+                    </li>
+                    </ul>
                     
-                    <textarea id="message" name="message" id="" cols="30" rows="10" placeholder="Mensaje" class="cuadro1"></textarea><br><br>
-                    <button type="submit" class="btn1 primary full">Enviar mensaje</button>
-            </form>  
+                </form>
 
-    </section> 
+        </section> 
+    </main>
 
-
-    <script src="main.js"></script>
+    <script src="https://kit.fontawesome.com/4e12f3f78c.js" crossorigin="anonymous"></script>
 
 </body>
 </html>

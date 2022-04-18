@@ -1,0 +1,35 @@
+.header__principal {
+	border-bottom: .2em solid hsl(175, 30%, 96%) ;
+}
+
+
+.header__principal .container {
+	display: flex;
+	width: 80%;
+	height: 4em;
+	margin: auto;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 1em;
+	font-weight: bold;
+	color: #0d1730;
+	
+}
+
+.header__principal--logo {
+	font-size: .9em;
+}
+
+.header__principal--nav a {
+	padding: .5em 0em;
+	margin: 0 .8em;
+	text-align: right;
+}
+
+.nav__link1{
+	border-bottom: .14em solid #3e6ff4;
+}
+
+.nav__link:hover {
+	border-bottom: .14em solid #3e6ff4;
+}
