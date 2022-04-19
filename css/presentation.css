@@ -6,13 +6,14 @@
     grid-template-columns: repeat(2,1fr);
     align-items: center;
     margin: auto;
-    font-weight: bold;
+    
 }
 
 
 .info__presentation h2 {
-    font-size: 3em;
-    margin: 0 ;
+    font-size: 3.5em;
+    margin: .2em auto;
+    font-weight: bold;
     
 }
 
@@ -22,19 +23,35 @@
 
 .button__presentation {
     color: #ffffff;
-    font-size: 1em;
     background: #3e6ff4;
-    padding: .3em;
+    padding: .5em;
     border-radius: .2em;
+    font-size: .9em;
 }
 
-.presentation img {
+.button__presentation:hover {
+    font-size: 1em;
+    padding: .7em;
+}
+
+
+
+img {
     margin: auto;
-    width: 20em;
-    border-radius:10em;
+    border-radius:5em;
 }
 
+.home__social {
+    display: flex;
+    margin: .8em 0;
+}
 
 .home__social-icon {
-    width: 0em;
+    font-size: 1.5em;
+    margin: 0 1em;
+}
+
+.home__social-icon:hover {
+    color: #3e6ff4;
+    transition: 500ms;
 }
