@@ -30,8 +30,12 @@ input, .contact__input {
     display: block;
     border: none;
     cursor: pointer;
-    padding: .5em .5em;
+    padding: .8em .5em;
     border-radius: .3em;
 }
 
-
+.button__contacto:hover {
+    background: #60EFB8;
+    color: #3e6ff4;
+    font-weight: bold;
+}

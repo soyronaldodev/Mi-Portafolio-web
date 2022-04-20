@@ -1,21 +1,113 @@
 @media screen and (min-width: 0px) and (max-width:400px) {
+    /*NAV*/
     .header__principal {
-        background: red;
+        display: none;
+    }
+    /*PRESENTATION*/
+    .presentation {
+        font-size: .7em;
+        display: block;
         
     }
+
+    img {
+        border-radius: 100em;
+        margin: 2.5em 4em;
+        width: 15em;
+        height: 13em;
+        
+    }
+
+
+    /*ABOUT*/
+    .section__title1 {
+        font-size: 2em;
+    }
+
+    .about__img {
+        display: none;
+    }
+
+    
+
+    .content__about {
+        width: 100%;
+        justify-content: center;
+        
+    }
+
+
+    /*SKILL*/
+    .section__title2 {
+        font-size: 2em;
+    }
+
+    .skills__img {
+        display: none;
+    }
+    /*PROJECTS*/
+    .section__title3 {
+        font-size: 2em;
+    }
+    /*CONTACTO*/
+
+    .section__title4{
+        font-size: 2em;
+    }
+    .button__contacto {
+        font-size: .8em;
+    }
+
+    input, .contact__input {
+        width: 15em;
+    }
+    /*FOOTER*/
+
+
 }
 
 @media screen and (min-width: 410px) and (max-width:960px) {
-    .header__principal {
-        background: rgb(58, 210, 16);
+    
+    /*NAV*/
+    .header__principal--logo {
+        display: none;
+    }
+    /*PRESENTATION*/
+
+    /*ABOUT*/
+
+    img {
+        display: none;
+    }
+
+    .content__about {
+        width: 100%;
+        justify-content: center;
         
     }
+
+
+    /*SKILL*/
+
+    .skills__img {
+        display: none;
+    }
+    /*PROJECTS*/
+
+    /*CONTACTO*/
+
+    /*FOOTER*/
+
+
+
+
+
 }
 
 
 @media screen and (min-width:960px) {
     .header__principal {
-        background: 
+        background: rgb(38, 173, 221);
         
     }
 }

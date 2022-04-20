@@ -3,7 +3,7 @@
     justify-content: center;
 }
 
-.about__content img {
+.about__content .about__img {
     height: 14em;
 }
 

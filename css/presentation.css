@@ -30,7 +30,9 @@
 }
 
 .button__presentation:hover {
-    font-size: 1em;
+    background: #60EFB8;
+    color: #3e6ff4;
+    font-weight: bold;
 }
 
 
