@@ -5,6 +5,7 @@
     }
     /*PRESENTATION*/
     .presentation {
+        height: 90vh;
         font-size: .7em;
         display: block;
         
@@ -12,16 +13,21 @@
 
     img {
         border-radius: 5em;
-        width: 15em;
-        height: 14em;
-        align-items: center;
-        margin: 1em 0;
+        width: 26em;
+        height: 18em;
+        margin: 0;
+        padding: 2em 0 0 0;
+        
 
         
     }
 
 
     /*ABOUT*/
+
+    .about__content {
+        height: 40vh;
+    }
     .section__title1 {
         font-size: 2em;
     }
