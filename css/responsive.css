@@ -51,6 +51,10 @@
         font-size: 2em;
     }
 
+    .skills__data {
+        width: 15em;
+    }
+
     .skills__img {
         display: none;
     }
