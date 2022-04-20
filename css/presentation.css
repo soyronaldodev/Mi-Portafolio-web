@@ -31,12 +31,12 @@
 
 .button__presentation:hover {
     font-size: 1em;
-    padding: .7em;
 }
 
 
 
 img {
+    height: 19em;
     margin: auto;
     border-radius:5em;
 }

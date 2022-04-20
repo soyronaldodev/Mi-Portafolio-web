@@ -1,0 +1,14 @@
+.footer__container {
+    text-align: center;
+    height: 30vh;
+    color: #ffffff;
+    background: #0d1730;
+    padding: 1em;
+    margin: 0;
+}
+
+.footer__title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
