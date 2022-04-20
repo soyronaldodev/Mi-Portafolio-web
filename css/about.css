@@ -14,6 +14,10 @@
     
 }
 
+.about__text {
+    width: 100%;
+    text-align: center;
+}
 
 .section__title1 {
     width: 4.5em;
