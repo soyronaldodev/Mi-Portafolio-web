@@ -32,7 +32,7 @@
 .button__presentation:hover {
     background: #60EFB8;
     color: #3e6ff4;
-    font-weight: bold;
+    
 }
 
 
@@ -41,6 +41,8 @@ img {
     height: 19em;
     margin: auto;
     border-radius:5em;
+    margin: 0 8em;
+    
 }
 
 .home__social {

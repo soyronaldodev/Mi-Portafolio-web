@@ -11,10 +11,12 @@
     }
 
     img {
-        border-radius: 100em;
-        margin: 2.5em 4em;
+        border-radius: 5em;
         width: 15em;
-        height: 13em;
+        height: 14em;
+        align-items: center;
+        margin: 1em 0;
+
         
     }
 
@@ -107,7 +109,6 @@
 
 @media screen and (min-width:960px) {
     .header__principal {
-        background: rgb(38, 173, 221);
         
     }
 }
